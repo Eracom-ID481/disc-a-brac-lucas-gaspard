@@ -1,0 +1,288 @@
+body {
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+}
+
+body, html {
+    height: 100%;
+}
+
+/*	Design guide	*/
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	TYPOGRAPHY	*/
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	FONTS	*/
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* @import statements need to be the _first_ items in a CSS file… */
+/* body */
+body {
+    font-family: 'Zilla Slab', serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	FONT SIZES	*/
+/*	base default: 1rem = 16 pixels = 12pt = 96dpi */
+html {
+    font-size: 100%;
+}
+
+body, p {
+    font-size: 1.15rem;
+}
+
+.wrap {
+    margin: 100px;
+    overflow: hidden;
+    width: 600px;
+    margin: auto;
+}
+
+.wrap .box {
+    padding: 50px;
+    background: #3498db;
+    float: left;
+    margin: 10px;
+}
+
+.wrap-button {
+    width: 120px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.wrap-button .btn-load {
+    color: #fca903
+}
+
+.wrap .box-hidden {
+    display: none;
+}
+
+/* 16px | 12pt */
+h1 {
+    font-size: 3.00rem;
+}
+
+/* 48px | 36pt */
+h2 {
+    font-size: 2.50rem;
+}
+
+/* 40px | 30pt */
+h3 {
+    font-size: 1.75rem;
+}
+
+/* 28px | 21pt */
+h4 {
+    font-size: 1.50rem;
+}
+
+/* 24px | 18pt */
+h5 {
+    font-size: 1.25rem;
+}
+
+/* 20px | 15pt */
+h6 {
+    font-size: 1.00rem;
+}
+
+/* 16px | 12pt */
+small, .small {
+    font-size: 85%;
+}
+
+/* 13.6px | 10.2pt */
+/* standard default ~= 0.8em = ~13px = ~10pt */
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	FONT-STYLE	*/
+h2 {
+    font-style: italic;
+}
+
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	FONT WEIGHTS	*/
+/* CSS Font Weights
+		100 (ultralight) – 900 (extrabold)
+		400 = normal
+		700 = bold
+	*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	LINE HEIGHT	*/
+/*	we're using _em_ for line height,
+		so it's proportional to the _text size_ …	*/
+body, p {
+    line-height: 1.33em;
+}
+
+h1, h2, h3 {
+    line-height: 1em;
+}
+
+.small {
+    line-height: 1.5em;
+}
+
+h4 {
+    line-height: 2rem;
+}
+
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	LETTER-SPACING	*/
+.small {
+    letter-spacing: 0.025em;
+}
+
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	COLOR */
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	Blue
+		Hex:	#1F5C99
+		RGB:	31  92  153
+		HSB:	210°  80%  60%
+		CMYK:	93%  68%  13%  1%
+		Lab:	38  -2  -40
+	*/
+.blue, .blue * {
+    color: #fcd303;
+}
+
+/*	COLOR	*/
+body {
+    background-color: black;
+}
+
+h1, h2, h3, h5, h6 {
+    color: #fcd303;
+}
+
+p, li {
+    color: white;
+}
+
+h4 {
+    color: black;
+}
+
+span {
+    background-color: #fcd303;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #fcd303;
+}
+
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	STYLING ELEMENTS	*/
+/*	LINKS	*/
+a:link, a:visited, a:hover, a:active {}
+
+a:link {}
+
+a:visited {}
+
+a:hover {
+    background-color: rgba(31, 92, 153, 0.10);
+}
+
+a:active {}
+
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	*/
+/*	--Design guide--	*/
+.bg {
+    /* The image used */
+    background-image: url("img/brac.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards {
+    margin: 0 -10px;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cards li {
+    /*background-color: #000000;*/
+    /*border: 4px solid #fca903;*/
+    margin: 0 10px 40px 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
+.card {
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 2em;
+    width: 6em;
+}
+
+.card-deck {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 60em;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+}
+
+.icon {
+    width: 2em;
+    height: 2em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.h2 {
+    text-align: center;
+}
