@@ -62,7 +62,7 @@ body, p {
 }
 
 .wrap .box {
-    /*padding: 50px;
+    /*padding: 20px;
     background: #3498db;
     float: left;
     margin: 10px;*/
@@ -248,8 +248,6 @@ a:active {}
 
 .cards li {
     width: calc(25% - 20px);
-    background-color: #e5dbff;
-    border: 1px solid #d0bfff;
     margin: 0 10px 20px 10px;
     padding: 10px;
     border-radius: 5px;
