@@ -39,12 +39,6 @@ body, p {
 }
 
 .wrap {
-    /*margin: 100px;
-    overflow: hidden;
-    width: 600px;
-    margin: auto;*/
-    /*display: flex;
-    flex-wrap: wrap;*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1000px;
@@ -63,13 +57,6 @@ body, p {
     }
 }
 
-.wrap .box {
-    /*padding: 20px;
-    background: #3498db;
-    float: left;
-    margin: 10px;*/
-}
-
 .wrap-button {
     width: 120px;
     overflow: hidden;
@@ -77,12 +64,14 @@ body, p {
     margin-top: 20px;
 }
 
-.wrap-button .btn-load {
-    color: #fca903
-}
-
 .wrap .box-hidden {
     display: none;
+}
+
+.wrap-button {
+    background-color: #0000;
+    color: #fcd303;
+    border: 2px solid #fcd303;
 }
 
 h2 {
@@ -240,6 +229,13 @@ a:active {}
     background-size: cover;
 }
 
+.about {
+    background-color: #fcd303;
+    margin: 0px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .cards {
     margin: 0 -10px;
     padding: 0;
@@ -294,6 +290,8 @@ button {
 }
 
 .container {
+    margin-top: 40px;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
 }

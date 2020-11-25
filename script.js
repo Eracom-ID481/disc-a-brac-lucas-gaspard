@@ -9,8 +9,8 @@ $(function() {
         if ($(".box-hidden:hidden").lenght == 0) {
             $("#load").fadeOut('slow');
         }
-        $('html,body').animate({
+        /*$('html,body').animate({
             scrollTop: $(this).offset().top
-        }, 500);
+        }, 100);*/
     });
 });
