@@ -9,7 +9,7 @@
 
 /* @import statements need to be the _first_ items in a CSS file… */
 /* body */
-body {
+body, a {
     font-family: 'Zilla Slab', serif;
 }
 
@@ -28,7 +28,7 @@ html {
     font-size: 100%;
 }
 
-body, p {
+body, p, a {
     font-size: 1.15rem;
 }
 
@@ -190,7 +190,11 @@ span {
     background-color: #fcd303;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link {
+    color: white;
+}
+
+a:visited, a:hover, a:active {
     color: #fcd303;
 }
 
