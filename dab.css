@@ -25,7 +25,7 @@ body, html {
 /*	FONT SIZES	*/
 /*	base default: 1rem = 16 pixels = 12pt = 96dpi */
 html {
-    font-size: 100%;
+    font-size: 14pt;
 }
 
 body, p, a {
@@ -229,19 +229,19 @@ a:active {}
     background-size: cover;
 }
 
-.grid-container {
-    display: grid;
-    grid-column-gap: 50px;
-    grid-template-columns: auto auto auto;
-    background-color: #fcd303;
-    padding: 10px;
+@media only screen and (min-width: 1050px) {
+    .grid-container {
+        display: grid;
+        grid-column-gap: 20px;
+        grid-template-columns: auto auto auto;
+        padding: 20px;
+        background-color: #fcd303;
+    }
 }
 
 .grid-item {
     background-color: rgba(0, 0, 0);
-    border: 1px solid rgba(0, 0, 0);
     padding: 20px;
-    font-size: 30px;
     text-align: center;
 }
 
