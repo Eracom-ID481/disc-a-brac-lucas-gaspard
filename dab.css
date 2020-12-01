@@ -17,12 +17,6 @@ h1, h2, h3 {
     font-family: 'Raleway', sans-serif;
 }
 
-body {
-    background-color: black;
-    font-family: 'Ubuntu', sans-serif;
-    color: gray;
-}
-
 body, html {
     height: 100%;
 }
@@ -227,19 +221,6 @@ a:active {}
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.about {
-    background-color: #fcd303;
-    margin: 0px 20px 20px 20px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.about div {
-    display: grid;
-    margin: 2rem;
-    width: 33;
 }
 
 .grid-container {
