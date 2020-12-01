@@ -236,6 +236,11 @@ a:active {}
     flex-wrap: wrap;
 }
 
+.about div {
+    margin: 1rem;
+    width: 11%%;
+}
+
 .cards {
     margin: 0 -10px;
     padding: 0;
